@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 60px 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#home {
+    background: url("../images/fundo.png") center center;
+}

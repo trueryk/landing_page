@@ -22,3 +22,4 @@ $(window).scroll(function () {
         $('nav img').attr('src', 'images/galinha4.png')
     }
 })
+

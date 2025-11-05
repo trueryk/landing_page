@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/galinha.png" type="image/png">
 </head>
 
 <body>
@@ -27,10 +29,10 @@
                     <a class="nav-link px-2" href="#sobre">O que é?</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link px-2" href="#contato">Fotos</a>
+                    <a class="nav-link px-2" href="#fotos">Fotos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link px-2" href="#localizacao">Contato</a>
+                    <a class="nav-link px-2" href="#contato">Contato</a>
                 </li>
             </ul>
         </div>
@@ -45,10 +47,72 @@
         </div>
     </section>
 
+    <a class="rounded-circle rollup position-fixed bottom-0 end-0 mx-5 my-5 bg-dark d-flex align-items-center justify-content-center invisible"
+        href="#home">
+        <i class="bi bi-arrow-up"></i>
+    </a>
+
     <section id="sobre">
-      
+        <div class="row container">
+            <div class="col-5">
+                <h3 class="pe text-center mb-4">O que é Stardew Valley?</h1>
+                    <p class="text-start fs-6">Stardew Valley é um videogame RPG de simulação desenvolvido por Eric
+                        "ConcernedApe" Barone. Os
+                        jogadores assumem o papel de um personagem que herda a fazenda dilapidada de seu falecido avô em
+                        Pelican Town.</p>
+                    <p class="text-start fs-6">
+                        Lançado para windows em fevereiro de 2016, antes de ser portado para outras
+                        plataformas. Stardew Valley permite que até oito jogadores joguem online juntos.
+                    </p>
+                    <a class="btn btn-dark mt-4" href="#fotos">
+                        Ver galeria de fotos
+                    </a>
+            </div>
+            <div class="col-7">
+                <img src="images/imagem1.png">
+            </div>
+        </div>
     </section>
 
+    <section id="fotos">
+        <div class="container">
+            <div id="stardew-carousel" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#stardew-carousel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#stardew-carousel" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#stardew-carousel" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/fundo.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/imagem1.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="..." class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#stardew-carousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#stardew-carousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+
+    </section>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>

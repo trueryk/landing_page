@@ -8,6 +8,7 @@ html {
 }
 
 section {
+    transition: all 0.5s;
     padding: 60px 0;
     height: 100vh;
     display: flex;
@@ -18,4 +19,23 @@ section {
 
 #home {
     background: url("../images/fundo.png") center center no-repeat;
+}
+
+.nav-white {
+    color: white;
+}
+
+.rollup {
+    width: 3vw;
+    height: 3vw;
+    color: white;
+    font-size: 1.5vw;
+}
+
+#sobre img {
+    width: 45vw;
+}
+
+#stardew-carousel {
+    width: 60vw;
 }

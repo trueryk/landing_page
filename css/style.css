@@ -7,10 +7,6 @@ html {
     scroll-behavior: smooth;
 }
 
-a {
-    color: #e0a100 !important;
-}
-
 section {
     padding: 60px 0;
     height: 100vh;
@@ -21,5 +17,5 @@ section {
 }
 
 #home {
-    background: url("../images/fundo.png") center center;
+    background: url("../images/fundo.png") center center no-repeat;
 }

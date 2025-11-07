@@ -10,10 +10,7 @@ $(window).scroll(function () {
 
 $(window).scroll(function () {
     if ($(this).scrollTop() > 1000 && $(this).scrollTop() < 1500) {
-        $('section').addClass('bg-info')
         $('nav img').attr('src', 'images/galinha2.png')
-    } else {
-        $('section').removeClass('bg-info')
     }
 })
 
@@ -22,4 +19,3 @@ $(window).scroll(function () {
         $('nav img').attr('src', 'images/galinha4.png')
     }
 })
-

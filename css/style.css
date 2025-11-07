@@ -41,6 +41,10 @@ section {
     height: 100%;
 }
 
-.carousel-inner > .carousel-item {
+.carousel-inner>.carousel-item {
     height: 70vh;
+}
+
+#fotos {
+    background-image: url('../images/clouds.png');
 }

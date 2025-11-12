@@ -25,21 +25,46 @@ section {
     color: white;
 }
 
-.rollup {
-    width: 3vw;
-    height: 3vw;
-    color: white;
-    font-size: 1.5vw;
+
+
+@media screen and (max-width: 768px) {
+    .rollup-md {
+        width: 10vw;
+        height: 10vw;
+        color: white;
+        font-size: 5vw;
+    }
 }
 
-#sobre img {
-    width: 45vw;
+@media screen and (min-width: 768px) {
+    .rollup {
+        width: 3vw;
+        height: 3vw;
+        color: white;
+        font-size: 1.5vw;
+    }
 }
 
-#stardew-carousel {
+.stardew-carousel {
     width: 60vw;
     height: 100%;
 }
+
+.stardew-carousel-md {
+    width: 100vw;
+    height: 30vh;
+}
+
+.carousel-inner2>.carousel-item {
+    height: 70vh;
+}
+
+.carousel-inner2>.carousel-item>img {
+    height: 30vh;
+    width: max-content;
+}
+
+/* #sobre img {} */
 
 .carousel-inner>.carousel-item {
     height: 70vh;

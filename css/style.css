@@ -18,10 +18,7 @@ section {
 }
 
 .botao-navbar {
-    background-image: url("../images/bg-menu.png");
-    background-size: cover;
-    background-position: center center ;
-    background-repeat: no-repeat;
+    background: url("../images/bg-menu.png") center center no-repeat cover;
     width: 14.5vw !important;
     border: none !important;
 
@@ -40,12 +37,29 @@ section {
     background: url("../images/fundo.png") center center no-repeat;
 }
 
+#sobre {
+    background: url("../images/fundo-menu.png") center center no-repeat;
+}
+
+.content {
+    padding: 1vh 1vw;
+    border-image: url('../images/border-stardew.png') 15 fill stretch;
+    border-width: 2vh;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 15px;
+    background-color: #FFF3CC;
+}
+
 .nav-white {
     color: white;
 }
 
+nav {
+    transition: 1.5s all;
+}
+
 .fundo-opaco {
-    transition: 0.5s;
     background-color: rgb(70, 70, 70, 0.5);
 }
 

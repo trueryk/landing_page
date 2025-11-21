@@ -49,9 +49,12 @@
     <section id="home" class="d-flex">
         <div class="container-fluid align-items-center justify-content-center d-flex flex-column">
             <img class="img-fluid" src="images/logo.png">
-            <a class="mt-5" href="#sobre">
-                <img src="images/btn1.png" alt="">
+            <a href="#sobre" class="mt-5 btn btn-dark">
+                O que é Stardew Valley
             </a>
+            <!-- <a class="mt-5" href="#sobre">
+                <img src="images/btn1.png" alt="">
+            </a> -->
         </div>
     </section>
 
@@ -74,14 +77,14 @@
                         plataformas. Stardew Valley permite que até oito jogadores joguem online juntos.
                     </p>
                 </div>
-                <a class="btn mt-4 d-none d-lg-block" href="#fotos">
-                    <img src="images/btn2.png" alt="">
+                <a class="btn btn-dark mt-4 d-none d-lg-block" href="#fotos">
+                    Ver galeria de fotos
                 </a>
             </div>
             <div class="col-md-5 col-lg-6 mx-lg-4">
                 <img class="img-fluid" src="images/imagem1.png">
-                <a class="btn mt-4 d-lg-none d-md-block" href="#fotos">
-                    <img src="images/btn2.png" alt="">
+                <a class="btn btn-dark mt-4 d-lg-none d-md-block" href="#fotos">
+                    Ver galeria de fotos
                 </a>
             </div>
 
@@ -183,8 +186,13 @@
                     </div>
                 </div>
 
-                <div class="ps-3 col-3">
+                <div class="text-center col-3">
                     <img class="text-center my-5" src="images/title-galeria.png" alt="">
+                    <iframe width="300px" height="150px"
+                        src="https://www.youtube.com/embed/ot7uXNQskhs?si=IvHRW_I2ZXKFoMPV&amp;controls=0"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     <p class="mt-3">Conheça um pouco do jogo com as imagens e vídeo de trailer!</p>
                     <a href="#feedback" class="btn btn-dark mt-2">
                         Compre o jogo e de o seu feedback!
@@ -192,53 +200,43 @@
                 </div>
             </div>
         </div>
-        <!-- <div class="d-none d-lg-block d-flex justify-content-center mt-5 ps-5">
-            <div id="stardew-carousel" class="carousel slide stardew-carousel">
-                
-
-                
-
-                
-            </div>
-        </div>
-
-        <div class="container container-md-carousel pt-5 ">
-            
-            <div id="stardew-carousel2" class="carousel slide stardew-carousel-md mx-0 d-lg-none">
+        <!-- Celular -->
+        <div class="container d-block d-lg-none">
+            <img class="text-center" src="images/title-galeria.png" alt="">
+            <div id="stardew-carousel-md" class="mt-5 carousel slide stardew-carousel-md">
                 <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#stardew-carousel2" data-bs-slide-to="0" class="active"
+                    <button type="button" data-bs-target="#stardew-carousel-md" data-bs-slide-to="0" class="active"
                         aria-current="true" aria-label="Slide 1"></button>
 
-                    <button type="button" data-bs-target="#stardew-carousel2" data-bs-slide-to="1"
+                    <button type="button" data-bs-target="#stardew-carousel-md" data-bs-slide-to="1"
                         aria-label="Slide 2"></button>
 
-                    <button type="button" data-bs-target="#stardew-carousel2" data-bs-slide-to="2"
+                    <button type="button" data-bs-target="#stardew-carousel-md" data-bs-slide-to="2"
                         aria-label="Slide 3"></button>
 
-                    <button type="button" data-bs-target="#stardew-carousel2" data-bs-slide-to="3"
+                    <button type="button" data-bs-target="#stardew-carousel-md" data-bs-slide-to="3" aria-current="true"
                         aria-label="Slide 4"></button>
 
-                    <button type="button" data-bs-target="#stardew-carousel2" data-bs-slide-to="4"
+                    <button type="button" data-bs-target="#stardew-carousel-md" data-bs-slide-to="4"
                         aria-label="Slide 5"></button>
 
-                    <button type="button" data-bs-target="#stardew-carousel2" data-bs-slide-to="5"
+                    <button type="button" data-bs-target="#stardew-carousel-md" data-bs-slide-to="5"
                         aria-label="Slide 6"></button>
 
-                    <button type="button" data-bs-target="#stardew-carousel2" data-bs-slide-to="6"
+                    <button type="button" data-bs-target="#stardew-carousel-md" data-bs-slide-to="6"
                         aria-label="Slide 7"></button>
 
-                    <button type="button" data-bs-target="#stardew-carousel2" data-bs-slide-to="7"
+                    <button type="button" data-bs-target="#stardew-carousel-md" data-bs-slide-to="7"
                         aria-label="Slide 8"></button>
 
-                    <button type="button" data-bs-target="#stardew-carousel2" data-bs-slide-to="8" aria-current="true"
+                    <button type="button" data-bs-target="#stardew-carousel-md" data-bs-slide-to="8" aria-current="true"
                         aria-label="Slide 9"></button>
 
-                    <button type="button" data-bs-target="#stardew-carousel2" data-bs-slide-to="9"
+                    <button type="button" data-bs-target="#stardew-carousel-md" data-bs-slide-to="9"
                         aria-label="Slide 10"></button>
                 </div>
 
-                <div class="carousel-inner2">
-
+                <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="images/car1.png" class="d-block w-100 object-fit-fill" alt="...">
                     </div>
@@ -280,43 +278,163 @@
                     </div>
                 </div>
 
-                <button class="carousel-control-prev" type="button" data-bs-target="#stardew-carousel2"
+                <button class="carousel-control-prev" type="button" data-bs-target="#stardew-carousel-md"
                     data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
                 </button>
 
-                <button class="carousel-control-next" type="button" data-bs-target="#stardew-carousel2"
+                <button class="carousel-control-next" type="button" data-bs-target="#stardew-carousel-md"
                     data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
                 </button>
-            </div>
-           
-        </div>
 
-        <div class="col-lg-4 ps-4 pe-5">
-            <img class="d-none d-lg-block text-center" src="images/title-galeria.png">
-            <p class="d-none d-lg-block">Conheça um pouco do jogo com as imagens e vídeo de trailer!</p>
-            <iframe class="d-none d-lg-none" width="400" height="220"
-                src="https://www.youtube.com/embed/ot7uXNQskhs?si=O_hks32mNgBmrMkP" title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <a href="#feedback" class="btn btn-dark mt-5 d-none d-lg-block">
+
+            </div>
+            <a href="#feedback" class="btn btn-dark mt-5">
                 Compre o jogo e de o seu feedback!
             </a>
-        </div> -->
-    </section>
-
-    <section id="feedback">
-        <div class="row">
-            <div class="col-5"></div>
-            <div class="col-7">
-                <form action="">
-
-                </form>
-            </div>
         </div>
     </section>
+
+    <section id="feedback" class="bg-light">
+        <!-- <div class="row">
+            <div id="widget">
+                <div class="header-steam my-2">
+                    <h5 class="text-start text-white">
+                        <strong>Comprar Stardew Valley</strong> no Steam
+                    </h5>
+                </div>
+                <div class="content container my-2">
+                    <div class="row mt-4">
+                        <div class="col-3">
+                            <img src="images/steam-stw.jpg" alt="">
+                        </div>
+                        <div class="col-8 text-white " id="text-stw">
+                            <p>Você herdou a antiga fazenda do seu avô, em Stardew Valley. Com ferramentas de
+                                segunda-mão e algumas moedas, você parte para dar início a sua nova vida. Será
+                                que você vai aprender a viver da terra, a transformar esse matagal em um
+                                próspero lar? </p>
+                        </div>
+                    </div>
+                    <div class="footer d-flex justify-content-end">
+                        <div class="col-3 mb-2">
+                            <a class="btn btn-success" href="">
+                                Acesse a página na Steam
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div> -->
+
+
+        <div class="container text-start d-flex justify-content-center">
+            <div class="row py-5 mt-5" id="widget">
+                <div class="col-lg-6 ps-lg-5">
+                    <form class="needs-validation text-light" novalidate>
+                        <h4 class="d-block d-lg-none mb-5"> Deixe seu Feedback</h4>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label">Nome ou apelido</label>
+                            <input type="text" class="form-control text-dark" id="nome"
+                                placeholder="Insira seu nome ou apelido aqui" required>
+                            <div class="valid-feedback">
+                                Ótimo nome!
+                            </div>
+                            <div class="invalid-feedback">
+                                Digite seu nome, precisamos saber com quem estamos falando!
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="descricao" class="form-label">Escreva seu feedback</label>
+                            <textarea type="text" class="form-control" id="descricao" placeholder="Feedback..."
+                                required></textarea>
+                            <div class="valid-feedback">
+                                Tudo certo por aqui!
+                            </div>
+                            <div class="invalid-feedback">
+                                Precisamos ouvir sua opinião!
+                            </div>
+                        </div>
+                        <div class="mb-3 text-light">
+                            <h6 class="my-3">Você recomenda esse jogo para outras pessoas?</h6>
+                            <input type="radio" class="btn-check" name="options-base" id="yes" autocomplete="off"
+                                checked>
+                            <label class="btn" for="yes">
+                                <i class="bi bi-hand-thumbs-up text-light"></i>
+                            </label>
+
+                            <input type="radio" class="btn-check" name="options-base" id="no" autocomplete="off">
+                            <label class="btn" for="no">
+                                <i class="bi bi-hand-thumbs-down text-light"></i>
+                            </label>
+                        </div>
+                        <div class="col-12">
+                            <button class="btn btn-light" type="submit">Enviar Feedback</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-6 pe-5 d-none d-lg-block">
+                    <div class="pt-3">
+                        <div class="header-steam">
+                            <h5 class="text-start text-white mx-4">
+                                <strong>Comprar Stardew Valley</strong> no Steam
+                            </h5>
+                        </div>
+                        <div class="content container my-2">
+                            <div class="row mt-4">
+                                <div class="col-4">
+                                    <img src="images/steam-stw.jpg" alt="">
+                                </div>
+                                <div class="col-7 ms-4 ps-3 text-white " id="text-stw">
+                                    <p>Você herdou a antiga fazenda do seu avô, em Stardew Valley. Com ferramentas de
+                                        segunda-mão e algumas moedas, você parte para dar início a sua nova vida. Será
+                                        que você vai aprender a viver da terra, a transformar esse matagal em um
+                                        próspero lar? </p>
+                                </div>
+                            </div>
+                            <div class="footer d-flex justify-content-end">
+                                <div class="col-6 mb-2">
+                                    <a class="btn btn-success"
+                                        href="https://store.steampowered.com/app/413150/Stardew_Valley/"
+                                        target="_blank">
+                                        Acesse a página na Steam
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 mt-5 text-light text-center">
+                    <img src="images/galinha.png" alt="">
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </section>
+    <footer class="container-fluid bg-dark text-light ">
+        <div class="row">
+            <div class="col-lg-9 pt-3 ps-3">
+
+            </div>
+            <div class="col-lg-3 pt-4 ps-3">
+                <h5>Feito por:</h5>
+                <a href="https://github.com/trueryk" class="text-light" target="_blank"><i class="bi bi-github">
+                        Henrique
+                        Ferreira</i></a>
+            </div>
+        </div>
+        <div class="col-12 mt-5 text-center ">
+            © 2025 Todos os direitos reservados.
+        </div>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>

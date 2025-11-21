@@ -37,10 +37,7 @@ section {
     background: url("../images/fundo.png") center center no-repeat;
 }
 
-#sobre {
-    background: url("../images/fundo-menu.png") center center no-repeat;
-}
-
+/* 
 .content {
     padding: 1vh 1vw;
     border-image: url('../images/border-stardew.png') 15 fill stretch;
@@ -49,7 +46,7 @@ section {
     border-color: transparent;
     border-radius: 15px;
     background-color: #FFF3CC;
-}
+} */
 
 .nav-white {
     color: white;
@@ -84,29 +81,47 @@ nav {
 
 .stardew-carousel {
     width: 60vw;
-    /* border: 1.5vh solid transparent; 
-    border-image: url("../images/border-stw.png") 7; */
 }
 
 .stardew-carousel-md {
-    width: 100vw;
-    height: 30vh;
+    width: 90vw;
+    height: 25vh;
 }
 
-.carousel-inner2>.carousel-item {
-    height: 70vh;
-}
-
-.carousel-inner2>.carousel-item>img {
-    height: 30vh;
+.stardew-carousel-md .carousel-inner > .carousel-item > img {
+    height: 25vh;
 }
 
 /* #sobre img {} */
 
-.carousel-inner>.carousel-item {
+.stardew-carousel > .carousel-inner > .carousel-item {
     height: 67vh;
 }
 
 #fotos {
     background-image: url('../images/clouds.png');
+}
+
+#widget {
+    height: 80vh;
+    border-radius: 4px;
+    background-color: #282e39;
+    width: 100%;
+}
+
+#widget > .content > .row > #text-stw {
+    font-size: 10pt;
+    text-align: justify;
+}
+
+input {
+    color: white !important;
+}
+
+footer {
+    height: 23vh;
+}
+
+footer a{
+    text-decoration: none;
 }
